@@ -30,8 +30,8 @@ def main():
         else:
             if not s.update(None):
                 return
-        print(s.get_food_x_y())
-        print(s.get_coord_list())
+        #print(s.get_food_x_y())
+        #print(s.get_coord_list())
 
         v.update_gameboard(s.get_coord_list(), s.get_food_x_y())
         time.sleep(0.1)

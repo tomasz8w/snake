@@ -27,18 +27,3 @@ class View():
                     line = line + " "
             print(line)
             line = ""
-
-    def update_gameboard_proto(self, x, y):
-        line = ""
-        for i in range(self.board_size):
-            for j in range(self.board_size):
-                if j == x and i == y:
-                    line = line + self.snake_char
-                if i == 0 or i == (self.board_size - 1):
-                    line = line + "_"
-                elif j == 0 or j == (self.board_size - 1):
-                    line = line + "|"
-                else:
-                    line = line + " "
-            print(line)
-            line = ""

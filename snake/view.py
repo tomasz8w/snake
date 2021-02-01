@@ -18,7 +18,6 @@ class View():
                     line = line + self.snake_char
                 elif (j, i) in food:
                     line = line + self.food_char
-
                 elif i == 0 or i == (self.board_size - 1):
                     line = line + "_"
                 elif j == 0 or j == (self.board_size - 1):

@@ -1,6 +1,8 @@
 import random
 
+
 class Snake:
+
     DIR_RIGHT = "R"
     DIR_LEFT = "L"
     DIR_UP = "U"
